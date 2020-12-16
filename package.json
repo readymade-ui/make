@@ -1,8 +1,8 @@
 {
   "name": "primr",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "main": "index.js",
-  "repository": "git@github.com:readymade-ui/make.git",
+  "repository": "git@github.com:readymade-ui/primr.git",
   "author": "Steve Belovarich <steveblue@gmail.com>",
   "license": "MIT",
   "bin": {
