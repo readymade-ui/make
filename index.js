@@ -51,11 +51,11 @@ function exampleItem(key, value) {
 
 function help(args) {
   process.stdout.write(`\n`);
-  process.stdout.write(chalk.magenta(`Make Ready ${args.version}\n`));
+  process.stdout.write(chalk.magenta(`primr ${args.version}\n`));
   process.stdout.write(`\n`);
   process.stdout.write(
     `${chalk.dim.white('Example usage:')} ${chalk.white(
-      'npx make-ready my-app',
+      'npx primr my-app',
     )} \n`,
   );
   process.stdout.write(
@@ -82,11 +82,11 @@ function help(args) {
   process.stdout.write(chalk.whiteBright(`-------- \n`));
   exampleItem(
     'Clone the default readymade-ui/starter repository into a directory called my-app over ssh from a custom git server, install dependencies and run scripts with npm',
-    'npx make-ready my-app --ssh git@custom-git-server.com --npm',
+    'npx primr my-app --ssh git@custom-git-server.com --npm',
   );
   exampleItem(
     'Clone another repository into a directory called foo-server, run the serve script post install.',
-    'npx make-ready foo-server --repo steveblue/bazel-typescript-starter --script serve',
+    'npx primr foo-server --repo steveblue/bazel-typescript-starter --script serve',
   );
   process.stdout.write(`\n`);
 }

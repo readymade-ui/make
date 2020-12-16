@@ -1,12 +1,12 @@
 {
-  "name": "make-ready",
+  "name": "primr",
   "version": "1.0.0-beta.0",
   "main": "index.js",
   "repository": "git@github.com:readymade-ui/make.git",
   "author": "Steve Belovarich <steveblue@gmail.com>",
   "license": "MIT",
   "bin": {
-    "make-ready": "index.js"
+    "primr": "index.js"
   },
   "dependencies": {
     "chalk": "^4.1.0",

@@ -1,6 +1,6 @@
-# Make Ready
+# primr
 
-Example usage: `npx make-ready my-app`
+Example usage: `npx primr my-app`
 
 The above command generates a new Readymade project in the my-app directory. The script automatically installs the Readymade starter code but could be modified with arguments to instantiate other projects as well.
 
@@ -17,11 +17,11 @@ The above command generates a new Readymade project in the my-app directory. The
 Clone the default readymade-ui/starter repository into a directory called my-app over ssh from a custom git server, install dependencies and run scripts with npm
 
 ```bash
-npx make-ready my-app --ssh git@custom-git-server.com --npm
+npx primr my-app --ssh git@custom-git-server.com --npm
 ```
 
 Clone another repository into a directory called foo-server, run the serve script post install.
 
 ```bash
-npx make-ready foo-server --repo steveblue/bazel-typescript-starter --script serve
+npx primr foo-server --repo steveblue/bazel-typescript-starter --script serve
 ```
