@@ -8,7 +8,7 @@ The above command generates a new Readymade project in the my-app directory. The
 
 - `http` use https instead of ssh for git clone (default = https://github.com/)
 - `repo` repo name (default = readymade-ui/starter)
-- `script` run script after install (default = npm run dev)
+- `script` run script after install (default = yarn dev)
 - `ssh` use ssh instead of https for git clone (default = git@github.com)
 - `npm` use npm instead of yarn (default is yarn)
 
