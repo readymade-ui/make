@@ -11,17 +11,4 @@ The above command generates a new Readymade project in the my-app directory. The
 - `script` run script after install (default = yarn dev)
 - `ssh` use ssh instead of https for git clone (default = git@github.com)
 - `npm` use npm instead of yarn (default is yarn)
-
-### Examples
-
-Clone the default readymade-ui/starter repository into a directory called my-app over ssh from a custom git server, install dependencies and run scripts with npm
-
-```bash
-npx primr my-app --ssh git@custom-git-server.com --npm
-```
-
-Clone another repository into a directory called foo-server, run the serve script post install.
-
-```bash
-npx primr foo-server --repo steveblue/bazel-typescript-starter --script serve
-```
+- `open` open the default http server
